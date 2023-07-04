@@ -1,0 +1,21 @@
+telnet dns 443
+nc -zv dns 443
+
+
+
+
+telnet bnvvstapi-external.v3locitydev.com 443
+
+nc -zv bnvvstapi-external.v3locitydev.com 443
+
+
+
+
+aws ecs execute-command --region ca-central-1 --cluster ng-cauat --task 688d07c58d734b0aa8982144a616894d --container ng-cauat-ss --command "/bin/bash" --interactive
+
+
+
+https://bnvvstapi-external.v3locitydev.com/
+
+
+https://bnvvstapi-external.v3locitydev.com
